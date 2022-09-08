@@ -10,7 +10,7 @@
 
 int main(void)
 {
-char chr[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+char chr[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 fwrite(chr, 1, sizeof(chr), stderr);
 return (1);
 }
