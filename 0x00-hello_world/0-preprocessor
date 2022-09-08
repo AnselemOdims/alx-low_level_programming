@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE -o prep_output.c
+gcc -E $CFILE -o prep_output.c
