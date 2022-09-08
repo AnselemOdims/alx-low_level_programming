@@ -11,6 +11,6 @@
 int main(void)
 {
 char chr[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-fwrite(chr, 1, sizeof(chr), stderr);
+fwrite(chr, sizeof(chr), 1, stderr);
 return (1);
 }
