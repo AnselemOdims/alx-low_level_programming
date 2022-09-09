@@ -14,7 +14,7 @@ int main(void)
 char *str = "abcdefghijklmnopqrstuvwxyz";
 int i = strlen(str);
 
-for(;i > -1;i--)
+for (; i > -1; i--)
 {
 putchar(str[i]);
 }
