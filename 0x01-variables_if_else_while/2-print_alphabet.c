@@ -12,7 +12,7 @@
 
 int main(void)
 {
-int i;
+unsigned int i;
 char *alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 for (i = 0; i < strlen(alpha); ++i)
