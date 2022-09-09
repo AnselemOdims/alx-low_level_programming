@@ -12,7 +12,7 @@
 int main(void)
 {
 char *str = "0123456789abcdef";
-int i = 0;
+unsigned int i = 0;
 
 while (i < strlen(str))
 {
