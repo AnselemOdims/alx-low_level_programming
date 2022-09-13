@@ -36,16 +36,16 @@ _putchar(' ');
 
 if (res > 9)
 {
-putchar((res / 10) + '0');
-putchar((res % 10) + '0');
+_putchar((res / 10) + '0');
+_putchar((res % 10) + '0');
 }
 else
 {
-putchar(res + '0');
+_putchar(res + '0');
 }
 ++j;
 }
-putchar('\n');
+_putchar('\n');
 
 ++count;
 ++i;
