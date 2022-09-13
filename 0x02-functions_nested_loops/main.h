@@ -1,3 +1,5 @@
+#ifndef "_putchar.c"
+#define "_putchar.c"
 #ifndef "0-putchar.c"
 #define "0-putchar.c"
 #ifndef "1-alphabet.c"
@@ -12,6 +14,4 @@
 #define "5-sign.c"
 #ifndef "6-abs.c"
 #define "6-abs.c"
-#ifndef "_putchar.c"
-#define "_putchar.c"
 #endif
