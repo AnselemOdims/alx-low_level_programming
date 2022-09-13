@@ -1,5 +1,4 @@
-#include <string.h>
-#include "_putchar.h"
+#include "_putchar.c"
 
 /**
  * print_alphabet - Print alphabet
@@ -11,14 +10,14 @@
 
 void print_alphabet(void)
 {
-char *alpha = "abcdefghijklmnopqrstuvwxyz";
-int i = 0;
+int i = 'a';
 
-while (i < strlen(alpha))
+while (i <= 'z')
 {
-_putchar(alpha[i]);
+_putchar(i);
 ++i;
 }
+_putchar('\n');
 
 return;
 }
