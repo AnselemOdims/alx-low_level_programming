@@ -32,8 +32,15 @@ _putchar(res + '0');
 
 if (j < 9)
 {
+if (res < 9)
+{
 _putchar(',');
 _putchar(' ');
+}
+else
+{
+_putchar(',');
+}
 _putchar(' ');
 }
 ++j;
