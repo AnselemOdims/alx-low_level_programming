@@ -15,8 +15,8 @@ void print_format(int i, int j)
 _putchar((i / 10) + '0');
 _putchar((i % 10) + '0');
 _putchar(':');
-_putchar((i / 10) + '0');
-_putchar((i % 10) + '0');
+_putchar((j / 10) + '0');
+_putchar((j % 10) + '0');
 _putchar('\n');
 }
 
