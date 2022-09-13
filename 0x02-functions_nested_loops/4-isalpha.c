@@ -1,4 +1,4 @@
-#include "_putchar.c"
+#include "main.h"
 
 /**
  * _isupper - Upper?
@@ -11,14 +11,10 @@
 
 int _isupper(int c)
 {
-int res;
-
 if (c >= 65 && c <= 90)
-res = 1;
+return (1);
 else
-res = 0;
-
-return (res);
+return (0);
 }
 
 /**
@@ -32,14 +28,10 @@ return (res);
 
 int _islower(int c)
 {
-int res;
-
 if (c >= 97 && c <= 122)
-res = 1;
+return (1);
 else
-res = 0;
-
-return (res);
+return (0);
 }
 
 /**
@@ -53,12 +45,8 @@ return (res);
 
 int _isalpha(int c)
 {
-int res;
-
 if (_isupper(c) || _islower(c))
-res = 1;
+return (1);
 else
-res = 0;
-
-return (res);
+return (0);
 }
