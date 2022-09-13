@@ -21,18 +21,3 @@ _putchar('\n');
 
 return;
 }
-
-/**
- * main - Entry point
- *
- * Description: 'program to call the function prototype'
- *
- * Return: 0
- */
-
-int main(void)
-{
-print_alphabet();
-
-return (0);
-}
