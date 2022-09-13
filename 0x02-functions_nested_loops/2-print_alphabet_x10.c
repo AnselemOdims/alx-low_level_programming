@@ -1,4 +1,4 @@
-#include "_putchar.c"
+#include "main.h"
 
 /**
  * print_alphabet_x10 - Print alphabet
@@ -26,19 +26,4 @@ _putchar('\n');
 }
 
 return;
-}
-
-/**
- * main - Entry point
- *
- * Description: 'program to call the function prototype'
- *
- * Return: 0
- */
-
-int main(void)
-{
-print_alphabet_x10();
-
-return (0);
 }
