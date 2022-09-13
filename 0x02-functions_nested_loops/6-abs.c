@@ -1,4 +1,4 @@
-#include "_putchar.c"
+#include "main.h"
 
 /**
  * _abs - Get absolute
@@ -11,12 +11,8 @@
 
 int _abs(int n)
 {
-int res;
-
 if (n < 0)
-res = n * (-1);
+return (n * (-1));
 else
-res = n;
-
-return (res);
+return n ;
 }
