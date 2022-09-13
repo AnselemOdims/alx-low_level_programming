@@ -16,14 +16,14 @@ int res;
 if (n > 0)
 {
 res = 1;
-_putchar('+');
+_putchar('+');t
 }
 else if (n < 0)
 {
 res = -1;
 _putchar('-');
 }
-else
+else if(n == 0)
 {
 res = 0;
 _putchar(0);
