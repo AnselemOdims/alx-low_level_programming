@@ -16,7 +16,7 @@ int res;
 if (n > 0)
 {
 res = 1;
-_putchar('+');t
+_putchar('+');
 }
 else if (n < 0)
 {
