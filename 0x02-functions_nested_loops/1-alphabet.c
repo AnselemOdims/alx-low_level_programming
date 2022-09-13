@@ -25,7 +25,7 @@ return;
 /**
  * main - Entry point
  *
- * Description: 'program to print lowercase aphabets'
+ * Description: 'program to call the function prototype'
  *
  * Return: 0
  */
