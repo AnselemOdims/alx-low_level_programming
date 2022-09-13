@@ -19,33 +19,33 @@ j = 0;
 while (j <= 9)
 {
 int res = j *count;
+if (j > 0)
+{
+if (res < 10)
+{
+_putchar(',');
+_putchar(' ');
+_putchar(' ');
+}
+else
+{
+_putchar(',');
+_putchar(' ');
+}
+}
 
 if (res > 9)
 {
-_putchar((res / 10) + '0');
-_putchar((res % 10) + '0');
+putchar((res / 10) + '0');
+putchar((res % 10) + '0');
 }
 else
 {
-_putchar(res + '0');
-}
-
-if (j < 9)
-{
-if (res < 9)
-{
-_putchar(',');
-_putchar(' ');
-}
-else
-{
-_putchar(',');
-}
-_putchar(' ');
+putchar(res + '0');
 }
 ++j;
 }
-_putchar('\n');
+putchar('\n');
 
 ++count;
 ++i;
