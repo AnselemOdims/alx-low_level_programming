@@ -5,7 +5,7 @@
  *
  * Description: 'program to print lowercase alphabets 10 times"
  *
- * Return: 0
+ * Return: void
  */
 
 void print_alphabet_x10(void)
