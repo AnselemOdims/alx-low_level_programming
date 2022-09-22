@@ -16,6 +16,6 @@ n = 0;
 while (dest[n])
 n++;
 for (int i = 0; src[i]; i++)
-dest[n + i] = src[i];
+dest[n++] = src[i];
 return (dest);
 }
