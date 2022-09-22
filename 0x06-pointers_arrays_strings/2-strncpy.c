@@ -1,0 +1,24 @@
+#include "main.h"
+
+/**
+ *_strncpy - String copy function
+ *@dest: Destination string
+ *@src: Source string
+ *@n: number
+ *
+ * Description: function to copy a string to another
+ *
+ * Return: the new string
+ */
+
+char *_strncpy(char *dest, char *src, int n)
+{
+int i;
+for (i = 0; i < n && src[i]; i++)
+{
+dest[i] = src[i]
+}
+for ( ; i < n; i++)
+dest[i] = '\0';
+return (dest);
+}
