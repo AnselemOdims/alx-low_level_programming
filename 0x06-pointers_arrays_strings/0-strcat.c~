@@ -1,0 +1,22 @@
+#include "main.h"
+#include <string.h>
+
+char *_strcat(char *dest, char *src)
+{
+  int dest_len = strlen(dest);
+  for(int i = 0; i < strlen(src)                  && dest[dest_len  ] != '\0'; i++)
+    {
+      dest[dest_len+i] = src[i];
+    }
+  return dest    ;
+}
+
+int main(void)
+{
+  char  a[98]="Hello ";
+  char *b = "World";
+  char *ans = _strcat(a, b);
+  printf("%s\n", a);
+  printf("%s\n", b);
+  printf("%s\n", ans);
+}
